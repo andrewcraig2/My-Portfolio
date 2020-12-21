@@ -75,7 +75,7 @@ header {
 
   /* HERO STYLES START */
 .hero {
-  background-image: url('../images/heart.jpeg');
+  background-image: url('../assets/images/heart.jpeg');
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -86,13 +86,8 @@ header {
 }
 
  
-  
-  
-  
-  
-
-  img {
-    max-width: 25%; 
+  .img {
+    max-width: 100%; 
     height: auto ;
   }
 
@@ -126,23 +121,6 @@ header {
     color: var(--primary-color);
   }
 
-
-   
-  
-  .box1 {
-    grid-column-start: 1; 
-    grid-column-end: 2; 
-    grid-row-start: 1; 
-    grid-row-end: 3; 
-  }
-
-  .box2 {
-  grid-column-start: 1; 
-  grid-column-end: 2; 
-  grid-row-start: 1; 
-  grid-row-end: 3;
-  
-  }
 
   .service-grid-container {
     width: 200px;
